@@ -1,0 +1,10 @@
+p {
+    background-color: blue;
+    color: white;
+}
+
+div p:first-child {
+    /* div p:nth-child(2){ */
+    background-color: yellow;
+    color: red;
+}

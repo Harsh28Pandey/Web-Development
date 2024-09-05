@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: grey;
+            padding: 50px;
+            display: flex;
+        }
+
+        .card {
+            background-color: white;
+            width: 200px;
+            /* height: 344px; */
+            padding: 0 0 34px 0;
+            border-radius: 7px;
+            margin: 8px;
+        }
+
+        .image {
+            padding: 7px;
+        }
+
+        .image img {
+            border-radius: 7px;
+        }
+
+        .content {
+            padding: 5px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .content p {
+            font-size: 10px;
+            color: gray;
+        }
+
+        .capsules {
+            padding: 0 28px 0 14px;
+        }
+
+        .capsules span {
+            border: 2px solid grey;
+            padding: 0px 7px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-family: sans-serif;
+            /* color: darkblue;
+            background-color: lightblue; */
+        }
+
+        .button {
+            text-align: center;
+        }
+
+        .button button {
+            padding: 7px 15px;
+            border-radius: 15px;
+            background-color: rgba(175, 175, 242, 0.882);
+            color: darkblue;
+            font-size: 10px;
+            font-weight: bolder;
+            border: none;
+            margin-top: 7px;
+            cursor: pointer;
+        }
+
+        .button button:hover {
+            background-color: rgb(194, 225, 246);
+            color: rgb(10, 136, 214);
+        }
